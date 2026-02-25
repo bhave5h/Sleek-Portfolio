@@ -57,7 +57,7 @@ export default function Hero() {
         alt="hero"
         width={100}
         height={100}
-        className="size-24 rounded-full bg-blue-300 dark:bg-yellow-300"
+        className="size-24 rounded-full bg-blue-300 dark:bg-white"
       />
 
       {/* Text Area */}
@@ -66,7 +66,7 @@ export default function Hero() {
           Hi, I&apos;m {name} — <span className="text-secondary">{title}</span>
         </h1>
 
-        <div className="mt-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 text-base whitespace-pre-wrap text-neutral-500 md:text-lg">
+        <div className="mt-4 text-base leading-[2.5] text-neutral-500 md:text-lg">
           {renderDescription()}
         </div>
       </div>

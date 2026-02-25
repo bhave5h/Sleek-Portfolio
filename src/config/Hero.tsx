@@ -23,47 +23,41 @@
  *
  * That's it! Your portfolio will automatically update with your information.
  */
+import Behance from '@/components/svgs/Behance';
+import Dribble from '@/components/svgs/Dribble';
 import Github from '@/components/svgs/Github';
+import Instagram from '@/components/svgs/Instagram';
 import LinkedIn from '@/components/svgs/LinkedIn';
 import Mail from '@/components/svgs/Mail';
-import X from '@/components/svgs/X';
-import Bun from '@/components/technologies/Bun';
-import JavaScript from '@/components/technologies/JavaScript';
-import MongoDB from '@/components/technologies/MongoDB';
+import Pinterest from '@/components/svgs/Pin';
+import Youtube from '@/components/svgs/Youtube';
+import CSS from '@/components/technologies/CSS';
+import Canva from '@/components/technologies/Canva';
+import Figma from '@/components/technologies/Figma';
+import FramerMotion from '@/components/technologies/FramerMotion';
 import NextJs from '@/components/technologies/NextJs';
-import NodeJs from '@/components/technologies/NodeJs';
-import PostgreSQL from '@/components/technologies/PostgreSQL';
-import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
-// Technology Components
-import TypeScript from '@/components/technologies/TypeScript';
+import TailwindCss from '@/components/technologies/TailwindCss';
 
 // Component mapping for skills
 export const skillComponents = {
-  TypeScript: TypeScript,
   ReactIcon: ReactIcon,
   NextJs: NextJs,
-  Bun: Bun,
-  PostgreSQL: PostgreSQL,
-  NodeJs: NodeJs,
-  MongoDB: MongoDB,
-  Prisma: Prisma,
-  JavaScript: JavaScript,
+  TailwindCss: TailwindCss,
+  Figma: Figma,
+  CSS: CSS,
+  FramerMotion: FramerMotion,
+  Canva: Canva,
 };
 
 export const heroConfig = {
   // Personal Information
-  name: 'Ram',
-  title: 'A Full Stack web developer.',
+  name: 'Bhavesh',
+  title: 'A Design Engineer.',
   avatar: '/assets/logo.png',
 
   // Skills Configuration
   skills: [
-    {
-      name: 'Typescript',
-      href: 'https://www.typescriptlang.org/',
-      component: 'TypeScript',
-    },
     {
       name: 'React',
       href: 'https://react.dev/',
@@ -75,36 +69,46 @@ export const heroConfig = {
       component: 'NextJs',
     },
     {
-      name: 'Bun',
-      href: 'https://bun.sh/',
-      component: 'Bun',
+      name: 'Tailwind CSS',
+      href: 'https://tailwindcss.com/',
+      component: 'TailwindCss',
     },
     {
-      name: 'PostgreSQL',
+      name: 'Figma',
       href: 'https://www.postgresql.org/',
-      component: 'PostgreSQL',
+      component: 'Figma',
+    },
+    {
+      name: 'Framer Motion',
+      href: 'https://www.framer.com/motion/',
+      component: 'FramerMotion',
+    },
+    {
+      name: 'Canva',
+      href: 'https://www.postgresql.org/',
+      component: 'Canva',
     },
   ],
 
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      'I Build & Design Modern Web Experiences Using {skills:0}, {skills:1} and {skills:2}. Crafting Clean <b>UI</b>, smooth interactions, and fast, responsive websites with {skills:3}, {skills:4}. While creating brand visuals and social creatives using {skills:5} .',
   },
 
   // Buttons Configuration
   buttons: [
     {
-      variant: 'outline',
-      text: 'Resume / CV',
-      href: '/resume',
-      icon: 'CV',
-    },
-    {
       variant: 'default',
       text: 'Get in touch',
       href: '/contact',
       icon: 'Chat',
+    },
+    {
+      variant: 'outline',
+      text: 'Resume / CV',
+      href: '/resume',
+      icon: 'CV',
     },
   ],
 };
@@ -112,9 +116,9 @@ export const heroConfig = {
 // Social Links Configuration
 export const socialLinks = [
   {
-    name: 'X',
-    href: 'https://x.com/ramxcodes',
-    icon: <X />,
+    name: 'Email',
+    href: 'mailto:bhaveshchawre1@gmail.com',
+    icon: <Mail />,
   },
   {
     name: 'LinkedIn',
@@ -127,8 +131,28 @@ export const socialLinks = [
     icon: <Github />,
   },
   {
-    name: 'Email',
-    href: 'mailto:ramxcodes@gmail.com',
-    icon: <Mail />,
+    name: 'Instagram',
+    href: 'https://github.com/ramxcodes',
+    icon: <Instagram />,
+  },
+  {
+    name: 'Pinterest',
+    href: 'https://github.com/ramxcodes',
+    icon: <Pinterest />,
+  },
+  {
+    name: 'Dribble',
+    href: 'https://github.com/ramxcodes',
+    icon: <Dribble />,
+  },
+  {
+    name: 'Youtube',
+    href: 'https://github.com/ramxcodes',
+    icon: <Youtube />,
+  },
+  {
+    name: 'Behance',
+    href: 'https://github.com/ramxcodes',
+    icon: <Behance />,
   },
 ];

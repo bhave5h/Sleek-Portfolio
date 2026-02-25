@@ -12,19 +12,20 @@ export interface PageMeta {
 // Base site configuration
 export const siteConfig = {
   name: heroConfig.name,
-  title: 'Sleek Portfolio',
-  description: 'Sleek Portfolio Template by @Ramxcodes',
+  title: 'Bhavesh Portfolio',
+  description: 'Simple Portfolio',
   url: process.env.NEXT_PUBLIC_URL || 'http://localhost:3000',
   ogImage: '/meta/opengraph-image.png',
   author: {
     name: about.name,
-    twitter: '@ramxcodes',
-    github: 'ramxcodes',
-    linkedin: 'ramxcodes',
-    email: 'ramxcodes@gmail.com',
+    github: 'bhave5h',
+    linkedin: 'bhaveshchawre',
+    email: 'bhaveshchawre1@gmail.com',
   },
   keywords: [
     'portfolio',
+    'Design Enginnering',
+    'UI UX',
     'developer',
     'full-stack',
     'react',
@@ -195,7 +196,6 @@ export function generateMetadata(pathname: string) {
       card: pageMeta.twitterCard || 'summary_large_image',
       title: pageMeta.title,
       description: pageMeta.description,
-      creator: siteConfig.author.twitter,
       images: [pageMeta.ogImage || siteConfig.ogImage],
     },
     robots: {
