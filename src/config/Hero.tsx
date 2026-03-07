@@ -34,7 +34,7 @@ import Youtube from '@/components/svgs/Youtube';
 import CSS from '@/components/technologies/CSS';
 import Canva from '@/components/technologies/Canva';
 import Figma from '@/components/technologies/Figma';
-import FramerMotion from '@/components/technologies/FramerMotion';
+import Fm from '@/components/technologies/Fm';
 import NextJs from '@/components/technologies/NextJs';
 import ReactIcon from '@/components/technologies/ReactIcon';
 import TailwindCss from '@/components/technologies/TailwindCss';
@@ -46,7 +46,7 @@ export const skillComponents = {
   TailwindCss: TailwindCss,
   Figma: Figma,
   CSS: CSS,
-  FramerMotion: FramerMotion,
+  FramerMotion: Fm,
   Canva: Canva,
 };
 
