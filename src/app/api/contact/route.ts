@@ -142,14 +142,13 @@ async function sendEmail(data: {
     const mailOptions = {
       from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER, // you receive it
-      subject: `New Contact Form Submission from ${data.name}`,
+      subject: `New Portfolio Submission from ${data.name}`,
       html: `
-        <h2>New Contact Form Message</h2>
+        <h2>New Message</h2>
         <p><strong>Name:</strong> ${data.name}</p>
         <p><strong>Email:</strong> ${data.email}</p>
         <p><strong>Phone:</strong> ${data.phone}</p>
-        <p><strong>Message:</strong></p>
-        <p>${data.message}</p>
+        <p><strong>Message:</strong> ${data.message}</p>
         <hr />
         <p><small>Sent at: ${new Date().toLocaleString()}</small></p>
       `,

@@ -120,6 +120,11 @@ export const heroConfig = {
 // Social Links Configuration
 export const socialLinks = [
   {
+    name: 'Threads',
+    href: 'https://www.threads.com/@bha4ve5h',
+    icon: <Threads />,
+  },
+  {
     name: 'Github',
     href: 'https://github.com/bhave5h',
     icon: <Github />,
@@ -158,11 +163,6 @@ export const socialLinks = [
     name: 'Youtube',
     href: 'https://www.youtube.com/@Bhavesh.Archive',
     icon: <Youtube />,
-  },
-  {
-    name: 'Threads',
-    href: 'https://www.threads.com/@bha4ve5h',
-    icon: <Threads />,
   },
   {
     name: 'Behance',
