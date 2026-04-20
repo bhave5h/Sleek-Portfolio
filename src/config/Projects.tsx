@@ -18,7 +18,7 @@ export const projects: Project[] = [
     image: '/project/nm.png',
     video:
       'https://ik.imagekit.io/bhavesssh/Project_vid/nm.mp4?updatedAt=1772974351594',
-    link: 'https://nishantmendhe-stockclasses.vercel.app/',
+    link: 'https://www.nishantmendhe.in/',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
       { name: 'React', icon: <ReactIcon key="react" /> },
@@ -50,7 +50,7 @@ export const projects: Project[] = [
       { name: 'GitHub', icon: <Github key="github" /> },
     ],
     github: 'https://github.com/bhave5h/BTS',
-    live: '',
+    live: 'https://bigtopsocial.com/',
     details: false,
     projectDetailsPageSlug: '/projects/a',
     isWorking: true,

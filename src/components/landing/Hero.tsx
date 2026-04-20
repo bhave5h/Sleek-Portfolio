@@ -77,12 +77,12 @@ export default function Hero() {
           <DecryptedText
             text={titles[titleIndex]}
             animateOn="view"
-            className="text-secondary text-4xl font-bold"
-            encryptedClassName="text-4xl font-bold text-secondary"
+            className="text-secondary text-2xl font-bold md:text-4xl"
+            encryptedClassName="font-bold text-secondary text-2xl md:text-4xl"
           />
         </div>
 
-        <div className="mt-4 text-base leading-[2.5] text-neutral-500 md:text-lg">
+        <div className="mt-0 text-base leading-[2.5] text-neutral-500 md:text-lg">
           {renderDescription()}
         </div>
       </div>
