@@ -146,7 +146,7 @@ export const socialLinks = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/bhaavesssh/',
+    href: 'https://www.instagram.com/bha4ve5h/',
     icon: <Instagram />,
   },
   {
