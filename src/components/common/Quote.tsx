@@ -18,11 +18,11 @@ export const Quote = () => {
 
   if (!currentQuote) return null;
 
-  const { quote, author } = currentQuote;
+  const { quote } = currentQuote;
 
   return (
-    <Container className="max-w-3xl py-16">
-      <div className="dark:border-dark-white-50 relative rounded-xl border px-4 py-10">
+    <Container className="px-10 py-16">
+      <div className="dark:border-dark-white-50 relative rounded-xl border px-4 py-10 pb-15">
         <svg
           aria-hidden="true"
           width="105"
@@ -33,9 +33,6 @@ export const Quote = () => {
         </svg>
         <p className="dark:text-dark-white-300 relative z-10 font-mono font-medium text-pretty text-zinc-500 italic">
           “{quote}”
-        </p>
-        <p className="text-highlight text-right font-mono text-pretty italic">
-          — {author}
         </p>
       </div>
     </Container>
