@@ -17,11 +17,13 @@ export default function About() {
           alt="About"
           width={150}
           height={150}
-          className="border-secondary size-60 rounded-md border-2 bg-blue-300 dark:bg-yellow-300"
+          className="border-secondary rounded-md border-2 bg-blue-300 sm:size-30 md:size-60 dark:bg-black"
         />
         <div className="mt-0">
           <h3 className="text-2xl font-bold">{about.name}</h3>
-          <p className="text-secondary mt-5">{about.description}</p>
+          <p className="text-secondary mt-5 text-justify">
+            {about.description}
+          </p>
           <p className="text-secondary mt-5 font-bold">My Skills</p>
           <div className="flex flex-wrap gap-2">
             {mySkills.map((skill) => (

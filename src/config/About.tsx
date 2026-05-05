@@ -1,26 +1,32 @@
-import Bun from '@/components/technologies/Bun';
+import Canva from '@/components/technologies/Canva';
+import CC from '@/components/technologies/Capcut';
+import Figma from '@/components/technologies/Figma';
+import Fm from '@/components/technologies/FramerMotion';
+import Github from '@/components/technologies/Github';
 import JavaScript from '@/components/technologies/JavaScript';
-import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
-import NodeJs from '@/components/technologies/NodeJs';
-import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
-import PostgreSQL from '@/components/technologies/SQL';
+import TailwindCSS from '@/components/technologies/TailwindCss';
+import ThreeJs from '@/components/technologies/ThreeJs';
 import TypeScript from '@/components/technologies/TypeScript';
+import Vercel from '@/components/technologies/Vercel';
 
 export const mySkills = [
-  <ReactIcon key="react" />,
-  <Bun key="bun" />,
-  <JavaScript key="javascript" />,
-  <TypeScript key="typescript" />,
-  <MongoDB key="mongodb" />,
   <NextJs key="nextjs" />,
-  <NodeJs key="nodejs" />,
-  <PostgreSQL key="postgresql" />,
-  <Prisma key="prisma" />,
+  <ReactIcon key="react" />,
+  <TypeScript key="typescript" />,
+  <JavaScript key="javascript" />,
+  <Github key="github" />,
+  <Fm key="framerMotion" />,
+  <TailwindCSS key="tailwindCSS" />,
+  <Vercel key="vercel" />,
+  <ThreeJs key="threeJs" />,
+  <Figma key="figma" />,
+  <Canva key="canva" />,
+  <CC key="capcut" />,
 ];
 
 export const about = {
   name: 'Bhavesh Chawre',
-  description: `I design and build bold web experiences where creativity meets code. Crafting sleek interfaces, fast websites, and immersive digital spaces that turn ideas into powerful online presence.`,
+  description: `Design Engineer with a B.Tech in AI, specializing in Modern Web Experiences & Design and brand identity. I fuse creative vision with technical frontend execution to build clean, Interactive and scalable digital products that stand out.`,
 };

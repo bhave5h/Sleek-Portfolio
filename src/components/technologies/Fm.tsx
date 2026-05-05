@@ -1,13 +1,11 @@
 export default function FramerMotion() {
   return (
-    <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-      {/* Yellow background */}
-      <rect width="256" height="256" fill="#FFE500" />
-
-      {/* Framer symbol */}
-      <path d="M52 160 L104 64 H156 L104 160 Z" fill="#0A0A0A" />
-      <path d="M112 160 L164 64 H216 L164 160 Z" fill="#0A0A0A" />
-      <circle cx="204" cy="96" r="20" fill="#0A0A0A" />
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 23 23"
+    >
+      <path d="M5.33 2h13.33v6.67h-6.67zm0 6.67H12l6.67 6.67H12v6.67l-6.67-6.67z" />
     </svg>
   );
 }
