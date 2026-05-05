@@ -266,3 +266,15 @@
 .prose h4 {
   font-size: calc(var(--blog-font-size) * 1.25);
 }
+
+
+::selection {
+  background: #00000000;
+  color: #FF6A00;
+}
+
+/* Firefox (older support) */
+::-moz-selection {
+  background: #00000000;
+  color: #FF6A00;
+}

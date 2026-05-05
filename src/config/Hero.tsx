@@ -79,17 +79,17 @@ export const heroConfig = {
     },
     {
       name: 'Figma',
-      href: 'https://www.postgresql.org/',
+      href: 'https://www.figma.com/',
       component: 'Figma',
     },
     {
       name: 'Framer Motion',
-      href: 'https://www.framer.com/motion/',
+      href: 'https://motion.dev/',
       component: 'FramerMotion',
     },
     {
       name: 'Canva',
-      href: 'https://www.postgresql.org/',
+      href: 'https://www.canva.com/',
       component: 'Canva',
     },
   ],
@@ -97,7 +97,7 @@ export const heroConfig = {
   // Description Configuration
   description: {
     template:
-      'I Build & Design Modern Web Experiences Using {skills:0}, {skills:1} and {skills:2}. Crafting Clean <b>UI</b>, smooth interactions, and fast, responsive websites with {skills:3}, {skills:4}. While creating brand visuals and social creatives using {skills:5} .',
+      'I Build & Design Modern Web Experiences focused on crafting clean interfaces and smooth, intuitive interactions. Blending design thinking with solid frontend engineering to create fast, responsive, and purposeful digital products.\nPowered By : {skills:0}, {skills:1}, {skills:2}, {skills:3}, {skills:4}, {skills:5}',
   },
 
   // Buttons Configuration
@@ -146,7 +146,7 @@ export const socialLinks = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/bha4ve5h/',
+    href: 'https://www.instagram.com/bhavesh.de5ign/',
     icon: <Instagram />,
   },
   {

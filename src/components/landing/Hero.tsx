@@ -82,7 +82,7 @@ export default function Hero() {
           />
         </div>
 
-        <div className="mt-0 text-base leading-[2.5] text-neutral-500 md:text-lg">
+        <div className="mt-0 max-w-3xl text-base leading-[2.2] text-neutral-500 md:text-lg">
           {renderDescription()}
         </div>
       </div>
