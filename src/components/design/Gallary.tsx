@@ -5,22 +5,38 @@ import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 
 const images = [
-  '/design/1.webp',
-  '/design/c1.webp',
+  '/design/n1.webp',
+  '/design/n2.webp',
+  '/design/n3.webp',
+  '/design/w2.webp',
+  '/design/psba.webp',
+  '/design/w1.webp',
+  '/design/13.webp',
+  '/design/2.webp',
+  '/design/3.webp',
+  '/design/4.webp',
+  '/design/6.webp',
+  '/design/7.webp',
+  '/design/9.webp',
+  '/design/10.webp',
+  '/design/11.webp',
+  '/design/12_1.webp',
+  '/design/8.webp',
   '/design/c2.webp',
   '/design/a1.webp',
+  '/design/14.webp',
+  '/design/m7.webp',
   '/design/a2.webp',
+  '/design/15.webp',
+  '/design/1.webp',
+  '/design/ca1.webp',
+  '/design/c1.webp',
   '/design/d4.webp',
-  '/design/d5.webp',
   '/design/b1.webp',
+  '/design/16.webp',
   '/design/e1.webp',
-  '/design/e2.webp',
-  '/design/e3.webp',
   '/design/f1.webp',
-  '/design/f2.webp',
-  '/design/f3.webp',
-  '/design/f4.webp',
-  '/design/g1.webp',
+  '/design/17.webp',
   '/design/i1.webp',
   '/design/i2.webp',
   '/design/i3.webp',
@@ -41,7 +57,7 @@ export default function MasonryGallery() {
 
   return (
     <div className="relative min-h-screen px-4 py-0 md:px-0">
-      <div className="columns-2 gap-4 space-y-4 transition-all md:columns-3 lg:columns-4">
+      <div className="columns-2 gap-2 transition-all md:columns-3 lg:columns-4">
         {images.map((src, index) => (
           <motion.div
             key={index}
@@ -57,7 +73,7 @@ export default function MasonryGallery() {
             <motion.img
               src={src}
               alt={`Gallery ${index}`}
-              className={`w-full rounded-2xl object-cover transition-all duration-500 ease-in-out ${
+              className={`w-full rounded-2xl object-cover p-2 transition-all duration-500 ease-in-out ${
                 hovered === null
                   ? 'blur-0 scale-100'
                   : hovered === index
@@ -103,10 +119,10 @@ export default function MasonryGallery() {
                   </button>
 
                   <motion.img
-                    initial={{ scale: 0.9, opacity: 0, y: 20 }}
-                    animate={{ scale: 1, opacity: 1, y: 0 }}
-                    exit={{ scale: 0.9, opacity: 0, y: 20 }}
-                    transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+                    initial={{ scale: 0.85, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    exit={{ scale: 0.85, opacity: 0 }}
+                    transition={{ duration: 0.35, ease: 'easeOut' }}
                     src={selectedImage}
                     alt="Preview"
                     className="max-h-[70vh] w-auto max-w-full rounded-xl object-contain shadow-2xl md:rounded-2xl"
