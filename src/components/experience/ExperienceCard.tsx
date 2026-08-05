@@ -51,13 +51,13 @@ export function ExperienceCard({
               alt={experience.company}
               width={100}
               height={100}
-              className="h-10 w-10 shrink-0 rounded-md border border-neutral-800 bg-neutral-900 object-cover sm:h-12 sm:w-12"
+              className="h-10 w-10 shrink-0 rounded-md border border-2 border-black/20 object-cover sm:h-12 sm:w-12"
             />
             <div className="flex w-full flex-col gap-1 sm:gap-0">
               <div className="flex flex-wrap items-center gap-2">
                 <h3
                   className={cn(
-                    'font-outfit text-base leading-tight font-bold text-white sm:text-lg',
+                    'font-outfit text-base leading-tight font-bold text-black/80 sm:text-lg dark:text-white',
                     experience.isBlur && 'opacity-80 blur-[6px] select-none',
                   )}
                 >

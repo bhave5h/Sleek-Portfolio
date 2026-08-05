@@ -155,18 +155,29 @@ export default function Github() {
         ) : hasError || contributions.length === 0 ? (
           <div className="text-muted-foreground border-border rounded-xl border-2 border-dashed p-8 text-center">
             <div className="bg-muted mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full">
-              <GithubIcon />
+              <GithubIcon className="h-8 w-8" />
             </div>
             <p className="mb-2 font-medium">{githubConfig.errorState.title}</p>
             <p className="mb-4 text-sm">
               {githubConfig.errorState.description}
             </p>
-            <Button variant="outline" asChild>
+            <Button
+              variant="outline"
+              asChild
+              track={{
+                name: 'external_link_click',
+                data: {
+                  url: `https://github.com/${githubConfig.username}`,
+                  text: githubConfig.errorState.buttonText,
+                  location: 'github_section',
+                },
+              }}
+            >
               <Link
                 href={`https://github.com/${githubConfig.username}`}
                 className="inline-flex items-center gap-2"
               >
-                <GithubIcon />
+                <GithubIcon className="h-4 w-4" />
                 {githubConfig.errorState.buttonText}
               </Link>
             </Button>
@@ -177,8 +188,8 @@ export default function Github() {
               <div className="w-full overflow-x-auto">
                 <ActivityCalendar
                   data={contributions}
-                  blockSize={10}
-                  blockMargin={2.2}
+                  blockSize={12}
+                  blockMargin={4}
                   fontSize={githubConfig.fontSize}
                   colorScheme={theme === 'dark' ? 'dark' : 'light'}
                   maxLevel={githubConfig.maxLevel}
