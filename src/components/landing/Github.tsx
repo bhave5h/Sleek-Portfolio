@@ -155,7 +155,9 @@ export default function Github() {
         ) : hasError || contributions.length === 0 ? (
           <div className="text-muted-foreground border-border rounded-xl border-2 border-dashed p-8 text-center">
             <div className="bg-muted mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full">
-              <GithubIcon className="h-8 w-8" />
+              <span className="inline-flex h-8 w-8">
+                <GithubIcon />
+              </span>
             </div>
             <p className="mb-2 font-medium">{githubConfig.errorState.title}</p>
             <p className="mb-4 text-sm">
@@ -177,7 +179,9 @@ export default function Github() {
                 href={`https://github.com/${githubConfig.username}`}
                 className="inline-flex items-center gap-2"
               >
-                <GithubIcon className="h-4 w-4" />
+                <span className="inline-flex h-4 w-4">
+                  <GithubIcon />
+                </span>
                 {githubConfig.errorState.buttonText}
               </Link>
             </Button>
