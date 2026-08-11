@@ -12,6 +12,26 @@ import { Spline } from 'lucide-react';
 
 export const projects: Project[] = [
   {
+    title: 'Aarunya - Resort Website',
+    description:
+      "Luxurious resort website, showcasing the resort's amenities, accommodations, and services.",
+    image: '/project/a.png',
+    video: 'https://ik.imagekit.io/bhavesssh/Projects_video/a.mp4',
+    link: 'https://aarunya-three.vercel.app/',
+    technologies: [
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'React', icon: <ReactIcon key="react" /> },
+      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+      { name: 'Vercel', icon: <Vercel key="vercel" /> },
+    ],
+    github: 'https://github.com/bhave5h/Aarunya',
+    live: 'https://aarunya-three.vercel.app/',
+    details: false,
+    projectDetailsPageSlug: '/projects/a',
+    isWorking: false,
+  },
+  {
     title: 'Trading Institute Website',
     description:
       'Premium stock market institute website showcasing courses, mentorship, resources, and enrollment.',

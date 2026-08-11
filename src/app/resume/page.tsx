@@ -36,7 +36,7 @@ export default function ResumePage() {
         <div className="mx-auto max-w-2xl">
           <iframe
             src={resumeConfig.url}
-            className="min-h-screen w-full"
+            className="min-h-screen w-full rounded-2xl border"
           ></iframe>
         </div>
       </div>

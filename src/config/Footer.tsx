@@ -1,6 +1,4 @@
 export const footerConfig = {
-  developer: 'BH4VE5H',
-  text: 'Build By RAMX ',
-  text2: ' Modified & Enhanced by',
-  copyright: 'All rights reserved.',
+  text1: 'If you’re a creative with similar interests,',
+  text2: 'I’d love to collaborate and build something fun together :)',
 };
