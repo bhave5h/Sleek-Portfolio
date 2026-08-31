@@ -121,7 +121,7 @@ export const heroConfig = {
 export const socialLinks = [
   {
     name: 'Threads',
-    href: 'https://www.threads.com/@bha4ve5h',
+    href: 'https://www.threads.com/@bhavesh.de5ign',
     icon: <Threads />,
   },
   {
@@ -151,7 +151,7 @@ export const socialLinks = [
   },
   {
     name: 'Pinterest',
-    href: 'https://in.pinterest.com/bha4ve5h/',
+    href: 'https://in.pinterest.com/BHAVE5H/_created/',
     icon: <Pinterest />,
   },
   {
