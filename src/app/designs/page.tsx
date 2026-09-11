@@ -54,11 +54,20 @@ export default function DesignsPage() {
         <Separator />
 
         <div>
+          <h2 className="pb-10 text-2xl font-semibold">More Designs</h2>
+
+          <a
+            href="https://in.pinterest.com/BHAVE5H/_created/"
+            className="btn-inner-shadow hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 border-border mr-5 cursor-pointer rounded-md border px-4 py-2 shadow-md"
+          >
+            Pinterest
+          </a>
+
           <a
             href="https://drive.google.com/drive/folders/1ADct_A5Rpt2qmsTg1XF0ce_H-Q15HX1s?usp=sharing"
             className="btn-inner-shadow hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 border-border cursor-pointer rounded-md border px-4 py-2 shadow-md"
           >
-            View More In Drive
+            Drive
           </a>
         </div>
       </div>
